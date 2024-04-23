@@ -1,4 +1,4 @@
-function myFunction() {
+function nav() {
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
       x.style.display = "none";
@@ -26,7 +26,7 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-function otherFunction() {
+function mode() {
     var element = document.body;
     element.classList.toggle("dark-mode");
  }
